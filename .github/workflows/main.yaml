@@ -62,7 +62,7 @@ jobs:
           fetch-depth: 0
       - name: 'Check Changed files'
         id: changed-files-cpp
-        uses: tj-actions/changed-files@v41
+        uses: tj-actions/changed-files@v43
         with:
           since_last_remote_commit: 'true'
           files: |
