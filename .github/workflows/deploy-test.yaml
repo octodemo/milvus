@@ -225,7 +225,7 @@ jobs:
 
       - name: Upload logs
         if: ${{ ! success() }}
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: docker-compose-logs-${{ matrix.mode }}-${{ matrix.task }}
           path: tests/python_client/deploy/${{ matrix.mode }}/logs
@@ -394,7 +394,7 @@ jobs:
 
       - name: Upload logs
         if: ${{ ! success() }}
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: helm-log-${{ matrix.mq_type }}-${{ matrix.mode }}-${{ matrix.task }}
           path: tests/python_client/deploy/k8s_logs
