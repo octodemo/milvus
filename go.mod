@@ -12,8 +12,8 @@ require (
 	github.com/apache/pulsar-client-go v0.6.1-0.20210728062540-29414db801a7
 	github.com/bits-and-blooms/bloom/v3 v3.0.1
 	github.com/blang/semver/v4 v4.0.0
-	github.com/casbin/casbin/v2 v2.44.2
-	github.com/casbin/json-adapter/v2 v2.0.0
+	github.com/casbin/casbin/v2 v2.60.0
+	github.com/casbin/json-adapter/v2 v2.1.1
 	github.com/cockroachdb/errors v1.9.1
 	github.com/containerd/cgroups/v3 v3.0.3 // indirect
 	github.com/gin-gonic/gin v1.9.1
