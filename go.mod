@@ -29,7 +29,7 @@ require (
 	github.com/prometheus/client_golang v1.14.0
 	github.com/prometheus/client_model v0.3.0
 	github.com/prometheus/common v0.42.0
-	github.com/samber/lo v1.27.0
+	github.com/samber/lo v1.39.0
 	github.com/sbinet/npyio v0.6.0
 	github.com/soheilhy/cmux v0.1.5
 	github.com/spf13/cast v1.3.1
